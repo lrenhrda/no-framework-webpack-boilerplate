@@ -1,12 +1,13 @@
 module.exports = {
-  'extends': 'airbnb-base',
+  'extends': 'standard',
+  'plugins': ['prettier'],
   'env': {
     'browser': true,
     'node': true
   },
   'rules': {
-    // Adjust the rules to your needs.
     // Complete List: https://eslint.org/docs/rules/
+    'prettier/prettier': 'error'
   },
   // Activate the resolver plugin, required to recognize the 'config' resolver
   settings: {
