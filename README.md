@@ -1,4 +1,6 @@
-# webpack-babel-eslint
+# no-framework-webpack-boilerplate
+
+Based on [NotSpecial/webpack-babel-eslint](https://github.com/NotSpecial/webpack-babel-eslint).
 
 A boilerplate containing essential build tools. It uses
 [Webpack](https://webpack.js.org) and includes the
@@ -8,7 +10,7 @@ hot-reloading for easy development and [Babel](https://babeljs.io),
 for Webpack to build transpiled, minified `.js` files along with gzipped files.
 
 Furthermore [ESLint](https://eslint.org), preconfigured to use the
-Airbnb rules, is provided to check your code. (Feel free to adjust
+Standard Style, is provided to check your code. (Feel free to adjust
 `.eslintrc` to you needs)
 
 Finally, a `Dockerfile` is included that uses a two-stage build to create
@@ -17,7 +19,7 @@ a final image that only contains the built files and the small
 the files (and the gzipped versions) and nothing else, ready to deploy
 in any cluster.
 
-Contrary to other boilerplates, *only* build tools are included, and you
+Contrary to other boilerplates, _only_ build tools are included, and you
 are free to choose whatever framework you like and get started quickly!
 
 ## Setup
